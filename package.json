@@ -1,0 +1,78 @@
+{
+  "name": "Fabric-Design-System",
+  "version": "0.0.1",
+  "description": "Fabric Design System",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "workspaces": ["fabric-design-system"],
+  "repository": "https://github.com/get-fabric/Fabric-Design-System.git",
+  "author": "Eden Turgeman <edmx0.et@gmail.com> (https://github.com/EdenTurgeman)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@storybook/addon-actions": "^6.3.0-rc.11",
+    "@storybook/addon-essentials": "^6.3.0-rc.11",
+    "@storybook/addon-links": "^6.3.0-rc.11",
+    "@storybook/react": "^6.3.0-rc.11",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.11",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/styled-components": "^5.1.10",
+    "@types/styled-system": "^5.1.11",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "babel-jest": "^27.0.2",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "rollup": "^2.52.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.(js|ts|jsx|tsx)": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
