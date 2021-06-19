@@ -1,12 +1,12 @@
 {
-  "name": "Fabric-Design-System",
+  "name": "design-system-starter",
   "version": "0.0.1",
   "description": "Fabric Design System",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
-  "workspaces": ["fabric-design-system"],
-  "repository": "https://github.com/get-fabric/Fabric-Design-System.git",
+  "workspaces": ["design-system-starter"],
+  "repository": "https://github.com/EdenTurgeman/design-system-starter.git",
   "author": "Eden Turgeman <edmx0.et@gmail.com> (https://github.com/EdenTurgeman)",
   "license": "MIT",
   "peerDependencies": {

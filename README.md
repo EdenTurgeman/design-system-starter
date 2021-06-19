@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Fabric-Design-System 👋</h1>
+<h1 align="center">Welcome to Design-System-Starter👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
