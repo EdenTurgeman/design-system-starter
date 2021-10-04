@@ -1,0 +1,25 @@
+name: publish-storybook
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'stories/**'
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: yarn
+      - run: yarn build-storybook --quiet
+      - run: yarn deploy-storybook
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}

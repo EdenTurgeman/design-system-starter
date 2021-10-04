@@ -1,0 +1,26 @@
+name: publish-package
+
+on:
+  push:
+    paths:
+      - 'package.json'
+    branches: [main]
+
+jobs:
+  publish-package:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com/
+      - run: yarn
+      - run: yarn build
+      - run: cat $NPM_CONFIG_USERCONFIG
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

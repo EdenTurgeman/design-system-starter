@@ -1,1 +1,2 @@
-export * from './Flex/Flex'
+export * from './Flex/Flex.component';
+export * from './Card/Card.component';
