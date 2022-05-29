@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should match snapshot for spinner 1`] = `
+.c0 {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+<div>
+  <div
+    class="c0"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Spinner should match snapshot for spinner color 1`] = `
+.c0 {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+<div>
+  <div
+    class="c0"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#f7c15cLoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#f7c15c"
+          />
+          <stop
+            offset="100%"
+            stop-color="#f7c15c"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##f7c15cLoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#f7c15c"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c0"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#e95d39LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#e95d39"
+          />
+          <stop
+            offset="100%"
+            stop-color="#e95d39"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##e95d39LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#e95d39"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c0"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#73b976LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#73b976"
+          />
+          <stop
+            offset="100%"
+            stop-color="#73b976"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##73b976LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#73b976"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Spinner should match snapshot for spinner sizes 1`] = `
+.c0 {
+  width: 10px;
+  height: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c1 {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c2 {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c3 {
+  width: 45px;
+  height: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c4 {
+  width: 90px;
+  height: 90px;
+  font-size: 14px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+<div>
+  <div
+    class="c0"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c1"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c2"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c3"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+  <div
+    class="c4"
+    role="progressbar"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <lineargradient
+          id="#5C41E4LoadingIndicatorGradient"
+          x1="28.154%"
+          x2="74.629%"
+          y1="63.74%"
+          y2="17.783%"
+        >
+          <stop
+            offset="0%"
+            stop-color="#5C41E4"
+          />
+          <stop
+            offset="100%"
+            stop-color="#5C41E4"
+            stop-opacity="0"
+          />
+        </lineargradient>
+      </defs>
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        transform="translate(2)"
+      >
+        <circle
+          cx="10"
+          cy="12"
+          r="10"
+          stroke="url(##5C41E4LoadingIndicatorGradient)"
+          stroke-width="4"
+        />
+        <path
+          d="M10 2C4.477 2 0 6.477 0 12"
+          stroke="#5C41E4"
+          stroke-width="4"
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
